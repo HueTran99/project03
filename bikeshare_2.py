@@ -108,7 +108,7 @@ def time_stats(df):
     print('-' * 40)
 
 
-def station_stats(df):
+def station_station(df):
     """Displays statistics on the most popular stations and trip."""
 
     print("\nCalculating The Most Popular Stations and Trip...\n")
@@ -217,7 +217,7 @@ def main():
         df = load_data(city, month, day)
 
         time_stats(df)
-        station_stats(df)
+        station_station(df)
         trip_duration_stats(df)
         user_stats(df)
 
