@@ -7,3 +7,5 @@ Installation:
 + I am using Python IDLE 3.11 for code and running with IDLE Shell 3.11.4
 + Install Python: brew install python3
 + Install Pandas: pip install --upgrade pandas
+
+I have updated this file  
